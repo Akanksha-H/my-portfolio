@@ -2,6 +2,10 @@
 
 A personal portfolio website built to showcase my profile, projects, technical skills, and contact details.
 
+## Live Portfolio
+
+Visit the live site here: https://aakankshas-portfolio.vercel.app/
+
 ## Overview
 
 This project is a responsive single-page portfolio for a software developer, highlighting:
