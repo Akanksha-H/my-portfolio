@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Aakanksha Hedau | Software Developer</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+       <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Header / Navigation -->
+        <header>
+            <div class="logo">&lt;aakanksha&gt;</div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contacts" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero / Intro -->
+        <section class="intro" id="home">
+            <div class="intro__content">
+                <p class="intro__greeting">Hi, I'm</p>
+                <h1 class="section__title section__title--intro">Aakanksha<br>Hedau</h1>
+                <h2 class="intro__role">{ Software Developer }</h2>
+
+                <div class="intro__socials">
+                    <p class="intro__socials--line">Find me on</p>
+                    <div class="intro__socials--icons">
+                        <a href="https://github.com/Akanksha-H" class="social-icon" title="GitHub" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:aakanksha0499@gmail.com" class="social-icon" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/aakanksha-h-59375115b/" class="social-icon" title="LinkedIn" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="intro__buttons">
+                    <a href="assets/Aakanksha_Hedau_CV.pdf" class="btn btn--secondary" download="Aakanksha_Hedau_CV.pdf">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                    <a href="#contacts" class="btn btn--primary">Hire Me</a>
+                </div>
+            </div>
+
+            <div class="intro__image">
+                <!-- 
+                    📸 IMAGE NEEDED: Replace img/avtar.png with a clear, professional 
+                    headshot or portrait photo of yourself.
+                    Recommended: square or portrait crop, min 400x400px.
+                -->
+                <img src="img/avtar.png" alt="Aakanksha Hedau" class="intro__img">
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <div class="about-me__inner">
+                <div class="about-me__text">
+                    <h2 class="section__title section__title--about">About Me</h2>
+                    <div class="about-me__body">
+                        <p>
+                            I'm a Software Engineer based in Bengaluru, Karnataka, building a career in full-stack development. I recently completed my Post Graduate Diploma in Advanced Computing (C-DAC), deepening my skills in Java Spring Boot, .NET, and containerized deployment with Docker and Kubernetes.
+                        </p>
+                        <p>
+                            One project close to my heart is <strong>Flowflix</strong>, an OTT media streaming platform I was frontend lead, built this project using — React.js, contributed Spring Boot backend with JWT/OAuth2 authentication, MySQL data design, and a Jenkins CI/CD pipeline on Docker and Kubernetes.
+                        </p>
+                        <p>
+                            I love turning ideas into working systems — writing clean, well-tested code, thinking through architecture, and collaborating with teams to ship reliable software.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills-section" id="skills">
+            <h2 class="section__title">Tech Stack</h2>
+            <p class="section__subtitle skills-subtitle">Technologies I work with</p>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category__title"><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category__title"><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">.NET</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category__title"><i class="fas fa-database"></i> Database</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category__title"><i class="fas fa-tools"></i> DevOps & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category__title"><i class="fas fa-shield-alt"></i> Auth & Security</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JWT</span>
+                        <span class="skill-tag">OAuth2</span>
+                        <span class="skill-tag">Spring Security</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category__title"><i class="fas fa-puzzle-piece"></i> Other</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Open Source</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My Projects</h2>
+            <p class="section__subtitle section__subtitle--work">
+                A selection of things I've built — solo and collaboratively. Each one taught me something new.
+            </p>
+
+            <div class="portfolio">
+                <!-- Project 01 -->
+                
+                <a href="https://github.com/smile2112-hub/OTT-Platform" class="portfolio__item" target="_blank" rel="noopener" style="background-image: url('img/OTT-platform.png');">
+                    <div class="portfolio__text">
+                        <span class="portfolio__tag">Full Stack</span>
+                        <h3>Flowflix OTT Platform</h3>
+                        <p>React + Spring Boot streaming app with JWT/OAuth2, MySQL, and Jenkins CI/CD on Kubernetes</p>
+                        <span class="portfolio__cta">View on GitHub <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+
+                <!-- Project 02 -->
+
+                <a href="https://github.com/Akanksha-H/PlacementScheduler" class="portfolio__item" target="_blank" rel="noopener" style="background-image: url('img/Palcement-scheduler.png');">
+                    <div class="portfolio__text">
+                        <span class="portfolio__tag">Full stack</span>
+                        <h3>Placement Scheduler</h3>
+                        <p>Smart scheduling system to manage and automate placement interview slots and notifications</p>
+                        <span class="portfolio__cta">View on GitHub <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="my-contact" id="contacts">
+            <h2 class="section__title section__title--Contact">Get In Touch</h2>
+            <p class="contact-intro">I'm currently open to new opportunities. Whether you have a question, a project idea, or just want to say hi — my inbox is always open.</p>
+
+            <div class="contacts__container">
+                <a href="mailto:aakanksha0499@gmail.com" class="contact">
+                    <i class="fas fa-envelope contact__icon"></i>
+                    <h3>Email</h3>
+                    <p class="contact__link">aakanksha0499@gmail.com</p>
+                </a>
+
+                <a href="https://linkedin.com/in/aakanksha-h-59375115b/" class="contact" target="_blank" rel="noopener">
+                    <i class="fab fa-linkedin contact__icon"></i>
+                    <h3>LinkedIn</h3>
+                    <p class="contact__link">aakanksha-h</p>
+                </a>
+
+                <a href="https://github.com/Akanksha-H" class="contact" target="_blank" rel="noopener">
+                    <i class="fab fa-github contact__icon"></i>
+                    <h3>GitHub</h3>
+                    <p class="contact__link">Akanksha-H</p>
+                </a>
+            </div>
+
+            <a href="assets/Aakanksha_Hedau_CV.pdf" class="btn btn--primary contact-cta" download="Aakanksha_Hedau_CV.pdf">
+                <i class="fas fa-download"></i> Download CV
+            </a>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="footer__text">Designed &amp; Built by <strong>Aakanksha Hedau</strong></p>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a href="https://github.com/Akanksha-H" class="social-list__link" target="_blank" rel="noopener" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="mailto:aakanksha0499@gmail.com" class="social-list__link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://linkedin.com/in/aakanksha-h-59375115b/" class="social-list__link" target="_blank" rel="noopener" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
